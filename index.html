@@ -5,7 +5,15 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Yaddon Ka Safar — Tours & Holidays</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pap+9..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -27,7 +35,9 @@
           <a href="#why">Why Us</a>
           <a href="#contact">Contact</a>
         </div>
-        <a class="ghost" href="tel:+918291816511">+91 82918 16511</a>
+        <a class="header-whatsapp" href="https://wa.me/918291816511" target="_blank">
+          <i class="fab fa-whatsapp"></i>
+        </a>
         <a class="cta-btn" href="#contact">Book Now</a>
       </nav>
     </div>
@@ -71,7 +81,7 @@
         <article class="card fade-up">
           <img src="images/Goa.jpeg" alt="Goa coastline">
           <div class="card-body">
-            <h3>Goa — Sun & Sea</h3>
+            <h3>Goa — North & South</h3>
             <p>4 Days & 3 Nights</p>
             <div class="card-footer">
               <div class="price">From ₹9,999/-</div>
@@ -79,7 +89,6 @@
             </div>
           </div>
         </article>
-
         <article class="card fade-up">
           <img src="images/Himachal.jpg" alt="Himachal mountains">
           <div class="card-body">
@@ -91,7 +100,6 @@
             </div>
           </div>
         </article>
-
         <article class="card fade-up">
           <img src="images/kedarnath.jpg" alt="Kedarnath temple">
           <div class="card-body">
@@ -103,7 +111,6 @@
             </div>
           </div>
         </article>
-
         <article class="card fade-up">
           <img src="images/Kashmir.jpeg" alt="Kashmir valley">
           <div class="card-body">
@@ -115,7 +122,6 @@
             </div>
           </div>
         </article>
-
         <article class="card fade-up">
           <img src="images/Rajeshthan.jpeg" alt="Rajasthan desert">
           <div class="card-body">
@@ -127,7 +133,6 @@
             </div>
           </div>
         </article>
-
         <article class="card fade-up">
           <img src="images/kerla.jpeg" alt="Kerala backwaters">
           <div class="card-body">
@@ -180,7 +185,7 @@
 
             <label for="tour">Interested Tour</label>
             <select id="tour" name="tour">
-              <option>Goa Escape</option>
+              <option>Goa - North & South</option>
               <option>Himachal Road Trip</option>
               <option>Kedarnath Temple</option>
               <option>Kashmir</option>
@@ -198,12 +203,16 @@
         </div>
         <div class="contact-info-card">
           <h3>Visit Us</h3>
-          <p class="muted">Opposite Vashi Railway Station, Haware Fantacia Business Park, Vashi, Navi Mumbai 400703</p>
+          <p class="muted">S 83 Haware Fantasia Business Park 2nd Floor Nano Wing, Plot No 47, Sector 30A, Next to Inorbit Mall Vashi Navi Mumbai 400703</p>
           <h3>Phone</h3>
-          <p class="muted"><a href="tel:+918291816511">+91 82918 16511</a></p>
+          <p class="muted"><a href="tel:+918956763796">+91 89567 63796</a></p>
           <h3>Email</h3>
           <p class="muted"><a href="mailto:info@yaddonkasafar.com">yaddonkasafar@gmail.com</a></p>
-          <p class="whatsapp"><a href="https://wa.me/918291816511" target="_blank">Chat on WhatsApp</a></p>
+          <p class="whatsapp">
+            <a class="whatsapp-btn" href="https://wa.me/918291816511" target="_blank">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </p><br/>
           <div class="cta-wrap"><a class="cta-btn" href="tel:+918291816511">Call & Book</a></div>
         </div>
       </div>
@@ -211,14 +220,25 @@
   </main>
 
   <footer>
-    <div class="footer-inner">
-      <div style="min-width:260px">
+  <div class="footer-inner container">
+    <div class="footer-content">
+      <div class="footer-text">
         <strong>YaddonKaSafar</strong>
         <p class="muted">India’s trusted travel community — connecting travelers to unforgettable experiences.</p>
         <small class="muted">© <span id="year"></span> YaddonKaSafar. All rights reserved.</small>
       </div>
+      <div class="footer-socials-vertical">
+        <a href="https://www.instagram.com/yaddon_ka_safar01?igsh=MTJ6cjZ2bmQwbTh5bA==" target="_blank" class="instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/YaddonKaSafar" target="_blank" class="facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
     </div>
-  </footer>
+  </div>
+</footer>
+
 
   <script src="script.js"></script>
 </body>
