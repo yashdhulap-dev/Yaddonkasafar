@@ -1,0 +1,23 @@
+{
+  "name": "yaddonkasafar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashdhulap-dev/Yaddonkasafar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashdhulap-dev/Yaddonkasafar/issues"
+  },
+  "homepage": "https://github.com/yashdhulap-dev/Yaddonkasafar#readme",
+  "dependencies": {
+    "nodemailer": "^7.0.9"
+  }
+}
