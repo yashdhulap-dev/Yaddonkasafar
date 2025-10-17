@@ -79,6 +79,27 @@ header .container {
     6px 6px 6px rgba(0,0,0,0.5); /* soft shadow for 3D effect */
 }
 
+.header-call {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  background-color: #25D366; /* Green color, like WhatsApp button */
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.header-call:hover {
+  background-color: #1ebe57;
+}
+
+.header-call i {
+  font-size: 16px;
+}
+
 
 .brand .tag {
   font-family: 'Poppins', sans-serif;
